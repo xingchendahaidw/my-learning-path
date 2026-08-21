@@ -1,9 +1,12 @@
 #include<stdio.h>
-int main(){
+int main()
+{
 	int price=0,AMOUNT=0;
-	printf("ÇëÊäÈë×Ü¼ÛºÍ½ğ¶î£º");
+	
+	printf("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü¼ÛºÍ½ï¿½î£º");
 	scanf("%d %d",&AMOUNT,&price);
 	int change=AMOUNT-price;
-	printf("ÕÒÄú%dÔª¡£\n",change);
+	printf("ï¿½ï¿½ï¿½ï¿½%dÔªï¿½ï¿½\n",change);
+	
 	return 0;
 }
