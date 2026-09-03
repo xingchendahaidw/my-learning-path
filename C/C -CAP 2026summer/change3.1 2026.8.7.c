@@ -1,5 +1,6 @@
 #include<stdio.h>
-int main(){
+int main()
+{
 	int price=0;
 	int bill=0;
 	printf("ÇëÊäÈë½ğ¶î£º");

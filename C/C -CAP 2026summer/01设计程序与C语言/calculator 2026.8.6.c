@@ -1,4 +1,5 @@
 #include<stdio.h>
+//ÓÃÓÚ¼ÆËã·ûºÅ
 int main()
 {
 	int a;

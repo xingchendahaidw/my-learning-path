@@ -1,12 +1,13 @@
 #include<stdio.h>
+//¿É±äµÄ×Ü¼Û
 int main()
 {
 	int price=0,AMOUNT=0;
 	
-	printf("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü¼ÛºÍ½ï¿½î£º");
+	printf("ÇëÊäÈë×Ü¼ÛºÍ½ð¶î£º");
 	scanf("%d %d",&AMOUNT,&price);
 	int change=AMOUNT-price;
-	printf("ï¿½ï¿½ï¿½ï¿½%dÔªï¿½ï¿½\n",change);
+	printf("ÕÒÄú%dÔª¡£\n",change);
 	
 	return 0;
 }
