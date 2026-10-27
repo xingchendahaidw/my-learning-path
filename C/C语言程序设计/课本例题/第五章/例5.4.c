@@ -7,10 +7,10 @@ int main()
     float a,b,c,disc,p,q;
     printf("Please enter the coefficients a,b,c");
     scanf("%f,%f,%f",&a,&b,&c);
-    if (fabs(a)<=EPS)
+    if (fabs(a)<=EPS)//fabs()调用<math.h>
     {
         printf("It is not a quadratic equation!\n");
-        exit(0);
+        exit(0);//exit():终止整个程序的执行，强制返回操作系统，需要<stdlib.h>
     }
     disc=b*b-4*a*c;
     p=-b/(2*a);
