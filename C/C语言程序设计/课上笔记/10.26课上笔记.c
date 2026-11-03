@@ -179,7 +179,7 @@ int main10()
 	}
 	return 0;
 }
-int main11()
+int main11()//×Ö·ûÍ¼
 {
 	for(int i=0;i<10;i++)
 	{
@@ -200,7 +200,7 @@ int main11()
 		printf("\n");
 	 } 
 }
-int main12()
+int main12()//¾Å¾Å³Ë·¨±í
 {
 	for(int i=1;i<=9;i++)
 	{
@@ -213,8 +213,3 @@ int main12()
 	}
 	return 0;
 }
-int main()
-{
-	
-}
-
