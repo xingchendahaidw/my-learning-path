@@ -165,7 +165,7 @@ void allocate(int** pp, int size) {
     }
 }
 
-int main7()//用二级指针指针修改指针
+int main()//用二级指针指针修改指针
 {
     int* arr = NULL;
 
