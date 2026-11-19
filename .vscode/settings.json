@@ -1,4 +1,5 @@
 {
     "C_Cpp.errorSquiggles": "disabled",
-    "files.encoding": "gbk"
+    "files.encoding": "gbk",
+    "editor.inlineSuggest.enabled": false
 }
